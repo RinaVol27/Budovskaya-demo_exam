@@ -1,4 +1,10 @@
 # Budovskaya-demo_exam
+❗❗❗ Терминал в VS code вызывается сочетанием клавиш ```Ctrl+Ё```
+## Установка модулей (это обязательно, иначе ничего работать не будет):
+1. Чтобы открыть папку поректа ```PS D:\Соня\Демо-экзамен\Budovskaya-demo_exam> cd web-app``` после этого нажимаешь ```enter``` и будет ```PS D:\Соня\Демо-экзамен\Budovskaya-demo_exam\web-app> ```
+2. Устанавливаешь главный модуль ```npm init -y```
+<img width="691" height="398" alt="image" src="https://github.com/user-attachments/assets/3373b225-9f46-489e-b853-a3fafe6e43bc" />
+
 
 ## Требования к работе
 * ИС - информационная система
