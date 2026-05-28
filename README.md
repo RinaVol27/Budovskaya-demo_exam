@@ -16,9 +16,9 @@
 PORT=3000 
 DB_HOST=localhost 
 DB_PORT=5432 
-DB_NAME=Budovskaya_demo-exam 
+DB_NAME=Budovskaya_demo-exam 👈 Вот эту, поставь название своей базы, которую сделаешь
 DB_USER=postgres 
-DB_PASSWORD=55555 
+DB_PASSWORD=55555 👈 Вот эту, пароль, который там у вас
 JWT_SECRET=my_secret_key
 ```
 ---
