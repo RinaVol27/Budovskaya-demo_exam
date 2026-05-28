@@ -72,4 +72,6 @@ app.post('/login', async (req, res) => {
 // ====================================================== // 
 // ЗАПУСК СЕРВЕРА // 
 // ====================================================== 
-app.listen(process.env.PORT, () => { console.log(`Сервер запущен`); });
+app.listen(process.env.PORT, () => {
+    console.log(`Сервер запущен на порту ${process.env.PORT}`);
+});
