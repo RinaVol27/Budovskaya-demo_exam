@@ -66,7 +66,23 @@ http://localhost:3000/register.html
 1. Открываешь PostgreSQL
 2. Нажимаешь слева на вкладку ```Servers```, вводишь данный вам пароль
 3. Нажимаешь на следующую вкладку ```Databases``` → ```Create...``` → ```Database```, вводишь название базы данных на английском без пробелов и подобного.
+<img width="546" height="127" alt="image" src="https://github.com/user-attachments/assets/33189722-1ebd-4ef0-a2d9-441910a87688" /><br>
 4. Нажимаешь на название своей базы данных, там будет клавиша ```Query Tool```, вставляешь туда весь код из файла базы данных в папке "База данных"
+5. Выделяешь курсором весь текст сверху до отметки, что я указала и нажимаешь на ```Execute script```, появится сообщение ```CREATE TABLES```
+<img width="189" height="126" alt="image" src="https://github.com/user-attachments/assets/18e6b4be-e502-41d3-bf24-490e6a9dac81" /><br>
+
+6. В принципе всё, после метки можешь выполнить или нет по своему желани.
+7. Вот все таблицы базы данных после выполнения пунктов выще
+<img width="396" height="739" alt="image" src="https://github.com/user-attachments/assets/eb4164bc-ffd2-40c0-9be9-e83f02a45c92" />
+
+
+## Просмотр данных в базе данных
+Кликаешь в порядке, указанном на фото
+<img width="570" height="198" alt="image" src="https://github.com/user-attachments/assets/430bb04c-2e68-4bb6-855d-e1af0c01de0b" />
+
+
+## Создание ER-диаграммы
+Кликаешь в порядке, указанном на фото
 
 
 # Основные SQL-запросы PostgreSQL
