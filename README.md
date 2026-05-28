@@ -4,7 +4,7 @@
 1. Чтобы открыть папку поректа ```PS D:\Соня\Демо-экзамен\Budovskaya-demo_exam> cd web-app``` после этого нажимаешь ```enter``` и будет ```PS D:\Соня\Демо-экзамен\Budovskaya-demo_exam\web-app> ```
 2. Устанавливаешь главный модуль ```npm init -y``` при успешной установке у тебя в папке приложения появится файл ```package.json```, его самостоятельно добавлять не надо (если ты вдруг всё скопировала, в том числе его)
 <img width="691" height="398" alt="image" src="https://github.com/user-attachments/assets/3373b225-9f46-489e-b853-a3fafe6e43bc" />
-
+3. Установка остальных модулей: ```npm install express pg pg-promise bcrypt jsonwebtoken cors body-parser dotenv```
 
 ## Требования к работе
 * ИС - информационная система
