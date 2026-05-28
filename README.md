@@ -11,7 +11,16 @@
 <img width="596" height="229" alt="image" src="https://github.com/user-attachments/assets/651babeb-bc6a-40f0-a4f5-482892c5e683" /><br>
 При успешной установке у тебя появяться файлы и папки в папке приложения<br>
 <img width="272" height="116" alt="image" src="https://github.com/user-attachments/assets/75fd10d8-422c-4253-aab5-51782dd9dbfb" /><br>
-4. В файле ```.env``` тебе надо поменять вот эту строчку ```DB_PASSWORD=1234 ``` на пароль, данный к вашему PostgreSQL там.
+4. В файле ```.env``` тебе нужно поменять несколько строчек
+```
+PORT=3000 
+DB_HOST=localhost 
+DB_PORT=5432 
+DB_NAME=Budovskaya_demo-exam 👈 Вот эту, поставь название своей базы, которую сделаешь
+DB_USER=postgres 
+DB_PASSWORD=55555 👈 Вот эту, пароль, который там у вас
+JWT_SECRET=my_secret_key
+```
 ---
 # КАК ЗАПУСТИТЬ
 ## Шаг 1
@@ -28,7 +37,9 @@ http://localhost:3000/login.html
 
 ## Регистрация
 http://localhost:3000/register.html
-
+---
+# КАК ОСТАНОВИТЬ
+Просто в консоли вводишь ```Ctrl+C```
 
 
 ## Требования к работе
