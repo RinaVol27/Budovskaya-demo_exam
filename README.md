@@ -1,11 +1,14 @@
 # Budovskaya-demo_exam
+❗❗❗ Вот эти папки и файлы тебе копировать в свой проект НЕ НУЖНО, они появяться сами после установки модулей
+<img width="376" height="158" alt="image" src="https://github.com/user-attachments/assets/65c4b337-4522-4503-a033-ce920449d061" />
+
 ❗❗❗ Терминал в VS code вызывается сочетанием клавиш ```Ctrl+Ё```
 ## Установка модулей (это обязательно, иначе ничего работать не будет):
 1. Чтобы открыть папку поректа ```PS D:\Соня\Демо-экзамен\Budovskaya-demo_exam> cd web-app``` после этого нажимаешь ```enter``` и будет ```PS D:\Соня\Демо-экзамен\Budovskaya-demo_exam\web-app> ```
 2. Устанавливаешь главный модуль ```npm init -y``` при успешной установке у тебя в папке приложения появится файл ```package.json```, его самостоятельно добавлять не надо (если ты вдруг всё скопировала, в том числе его)
 <img width="691" height="398" alt="image" src="https://github.com/user-attachments/assets/3373b225-9f46-489e-b853-a3fafe6e43bc" /><br>
 3. Установка остальных модулей: ```npm install express pg pg-promise bcrypt jsonwebtoken cors body-parser dotenv```
-4. <img width="596" height="229" alt="image" src="https://github.com/user-attachments/assets/651babeb-bc6a-40f0-a4f5-482892c5e683" /><br>
+<img width="596" height="229" alt="image" src="https://github.com/user-attachments/assets/651babeb-bc6a-40f0-a4f5-482892c5e683" /><br>
 При успешной установке у тебя появяться файлы и папки в папке приложения
 <img width="272" height="116" alt="image" src="https://github.com/user-attachments/assets/75fd10d8-422c-4253-aab5-51782dd9dbfb" />
 
