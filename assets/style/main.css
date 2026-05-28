@@ -1,0 +1,166 @@
+main{
+    margin: 0 200px;
+}
+
+.bottom-line{
+    border-bottom: 3px solid gray;
+}
+
+
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* кнопка */
+.game-btn {
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+  padding: 12px 25px;
+  background: #1A365D;
+  color: white;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.game-btn:hover {
+  background: #F97F37;
+}
+.text-title__game{
+    font-family: 'Montserrat', sans-serif;
+    color: #1A365D;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.game-photo{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    gap: 50px;
+    
+}
+.photo__game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+.photo__game p{
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.photo__game img{
+    border: 1px solid transparent;
+    border-radius: 30px;
+    margin: 20px 0;
+    width: 80%;
+}
+
+
+
+.b-day{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.b-day__photo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.b-day__photo img{
+    border: 1px solid transparent;
+    border-radius: 30px;
+    width: 25%;
+}
+.red-contour{
+    border: 2px solid #F97F37;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.b-day__info{
+    display: flex;
+    gap: 70px;
+}
+
+
+
+
+.cafe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.cafe-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cafe-info p{
+    font-family: 'Montserrat', sans-serif;
+    color: #1A365D;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.cafe-info img{
+    border: 1px transparent solid;
+    border-radius: 50px 0 0 50px;
+    position: relative;
+    right: -18%;
+}
+
+
+
+
+
+.plus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.text-title{
+    font-family: 'Montserrat', sans-serif;
+    color: #1A365D;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 50px 0;
+    text-align: center;
+}
+.text-main{
+    font-family: 'Montserrat', sans-serif;
+    color: #1A365D;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 50px 0;
+    text-align: left;
+}
+.text-main span{
+    font-family: 'Montserrat', sans-serif;
+    color: #F97F37;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin: 50px 0;
+    text-align: left;
+}
+.plus ul{
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #1A365D;
+    border-radius: 30px;
+    padding: 30px 60px;
+    width: 80%;
+    font-size: 1.3rem;
+}

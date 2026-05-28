@@ -1,0 +1,16 @@
+footer{
+    width: 100%;
+    background-color: #1A365D;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+
+}
+
+.footer-text{
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}

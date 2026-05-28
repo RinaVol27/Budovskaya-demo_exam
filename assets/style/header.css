@@ -1,0 +1,132 @@
+header{
+    width: 100%;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 60px;
+}
+.main-header__text1{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.main-header__text1{
+    font-size: 1.25rem;
+}
+.name-centre{
+    display: flex;
+    gap: 50px;
+    justify-content: left;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.header-logo{
+    width: 15%;
+}
+.header-logo img{
+    width: 100%;
+}
+.main-header__text__sp-size{
+    width: 500px;
+}
+
+
+/* Общий стиль hero-блока */
+
+/* контент */
+.hero-content {
+  position: relative;
+  top: -60px;
+  z-index: 2;
+  max-width: 100%;
+  height: 100vh;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+
+  background: url("../img/9919XvecYVY.jpg") no-repeat center center/cover;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content h1 {
+  margin:0 0 20px 0;
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.hero-content h2 {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.hero-content p {
+  margin: 0 300px;
+  font-size: 1.3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  background: rgba(0,0,0,0.6);
+  border: 1px transparent solid;
+  border-radius: 100px;
+  padding: 10px 20px;
+}
+
+/* кнопка */
+.hero-btn {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  padding: 12px 25px;
+  background: #1A365D;
+  color: white;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero-btn:hover {
+  background: #F97F37;
+}
+
+/* верхнее меню */
+.navbar {
+    position: relative;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+    font-family: 'Montserrat', sans-serif;
+    height: 20%;
+    background: rgba(0,0,0,0.6);
+    font-size: 1.5rem;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #F97F37;
+}
