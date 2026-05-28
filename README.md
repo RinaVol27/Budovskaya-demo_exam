@@ -5,6 +5,10 @@
 2. Устанавливаешь главный модуль ```npm init -y``` при успешной установке у тебя в папке приложения появится файл ```package.json```, его самостоятельно добавлять не надо (если ты вдруг всё скопировала, в том числе его)
 <img width="691" height="398" alt="image" src="https://github.com/user-attachments/assets/3373b225-9f46-489e-b853-a3fafe6e43bc" /><br>
 3. Установка остальных модулей: ```npm install express pg pg-promise bcrypt jsonwebtoken cors body-parser dotenv```
+4. <img width="596" height="229" alt="image" src="https://github.com/user-attachments/assets/651babeb-bc6a-40f0-a4f5-482892c5e683" /><br>
+При успешной установке у тебя появяться файлы и папки в папке приложения
+<img width="272" height="116" alt="image" src="https://github.com/user-attachments/assets/75fd10d8-422c-4253-aab5-51782dd9dbfb" />
+
 
 ## Требования к работе
 * ИС - информационная система
