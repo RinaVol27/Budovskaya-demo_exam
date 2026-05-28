@@ -28,7 +28,9 @@ http://localhost:3000/login.html
 
 ## Регистрация
 http://localhost:3000/register.html
-
+---
+# КАК ОСТАНОВИТЬ
+Просто в консоли вводишь ```Ctrl+C```
 
 
 ## Требования к работе
