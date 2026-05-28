@@ -1,3 +1,4 @@
+id="q4m7"
 const express = require('express'); 
 const bodyParser = require('body-parser'); 
 const cors = require('cors'); 
@@ -67,7 +68,7 @@ app.post('/login', async (req, res) => {
         res.json({ message: 'Авторизация успешна', token }); } 
         catch (err) { console.log(err); res.status(500).json({ message: 'Ошибка сервера' }); } }); 
         
-        
+
 // ====================================================== // 
 // ЗАПУСК СЕРВЕРА // 
 // ====================================================== 
