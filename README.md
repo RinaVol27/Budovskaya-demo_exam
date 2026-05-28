@@ -19,3 +19,191 @@
 
 **Максимум:** 100 баллов
 ---
+# Основные SQL-запросы PostgreSQL
+
+## SELECT — получение данных
+
+### Получить все данные из таблицы
+
+```sql
+SELECT * FROM users;
+```
+
+### Получить определённые столбцы
+
+```sql
+SELECT full_name, email FROM users;
+```
+
+### Получить данные с условием
+
+```sql
+SELECT * FROM users
+WHERE id = 1;
+```
+
+### Сортировка
+
+```sql
+SELECT * FROM users
+ORDER BY full_name ASC;
+```
+
+### Ограничение количества записей
+
+```sql
+SELECT * FROM users
+LIMIT 5;
+```
+
+---
+
+# INSERT — добавление данных
+
+### Добавление новой записи
+
+```sql
+INSERT INTO users (
+    full_name,
+    email,
+    login,
+    password_hash
+)
+VALUES (
+    'Иван Иванов',
+    'ivan@mail.com',
+    'ivan',
+    'hashpassword'
+);
+```
+
+### Добавление нескольких записей
+
+```sql
+INSERT INTO categories (name)
+VALUES
+('Категория 1'),
+('Категория 2');
+```
+
+---
+
+# UPDATE — изменение данных
+
+### Изменение записи
+
+```sql
+UPDATE users
+SET full_name = 'Новое имя'
+WHERE id = 1;
+```
+
+### Изменение нескольких полей
+
+```sql
+UPDATE users
+SET
+    email = 'new@mail.com',
+    phone = '+79999999999'
+WHERE id = 1;
+```
+
+### Изменение роли пользователя
+
+```sql
+UPDATE users
+SET is_organizer = TRUE
+WHERE id = 1;
+```
+
+---
+
+# DELETE — удаление данных
+
+### Удаление записи
+
+```sql
+DELETE FROM users
+WHERE id = 1;
+```
+
+### Удаление всех данных из таблицы
+
+```sql
+DELETE FROM users;
+```
+
+---
+
+# Полезные дополнительные запросы
+
+## Поиск по тексту
+
+```sql
+SELECT * FROM users
+WHERE full_name LIKE '%Иван%';
+```
+
+---
+
+## Подсчёт количества записей
+
+```sql
+SELECT COUNT(*) FROM users;
+```
+
+---
+
+## Получение уникальных значений
+
+```sql
+SELECT DISTINCT role FROM users;
+```
+
+---
+
+## INNER JOIN — соединение таблиц
+
+```sql
+SELECT
+    orders.id,
+    users.full_name,
+    orders.status
+FROM orders
+INNER JOIN users
+ON orders.user_id = users.id;
+```
+
+---
+
+# Универсальная структура SQL-запросов
+
+## SELECT
+
+```sql
+SELECT столбцы
+FROM таблица
+WHERE условие;
+```
+
+## INSERT
+
+```sql
+INSERT INTO таблица (столбцы)
+VALUES (значения);
+```
+
+## UPDATE
+
+```sql
+UPDATE таблица
+SET столбец = значение
+WHERE условие;
+```
+
+## DELETE
+
+```sql
+DELETE FROM таблица
+WHERE условие;
+```
