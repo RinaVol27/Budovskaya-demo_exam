@@ -29,7 +29,8 @@ JWT_SECRET=my_secret_key
 Выполнить SQL таблицы (видео, конец, создать скрипт и запустить).
 ## Шаг 3
 Запустить сервер: ```node server.js```, введи это в консоли, при успешном запуске у тебя появиться сообщение "Сервер запущен", не торопись, он может пару минут прогружать перед этим сообщением:
-<img width="735" height="107" alt="image" src="https://github.com/user-attachments/assets/64b63000-b41e-4445-b50b-8d68ed2a5784" /><br>
+<img width="726" height="99" alt="image" src="https://github.com/user-attachments/assets/b0271496-8fec-42a1-af80-13af7b6461f6" />
+
 ---
 # КАК ОТКРЫТЬ
 ## Авторизация
