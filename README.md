@@ -10,7 +10,8 @@
 3. Установка остальных модулей: ```npm install express pg pg-promise bcrypt jsonwebtoken cors body-parser dotenv```
 <img width="596" height="229" alt="image" src="https://github.com/user-attachments/assets/651babeb-bc6a-40f0-a4f5-482892c5e683" /><br>
 При успешной установке у тебя появяться файлы и папки в папке приложения
-<img width="272" height="116" alt="image" src="https://github.com/user-attachments/assets/75fd10d8-422c-4253-aab5-51782dd9dbfb" />
+<img width="272" height="116" alt="image" src="https://github.com/user-attachments/assets/75fd10d8-422c-4253-aab5-51782dd9dbfb" /><br>
+4. В файле ```.env``` тебе надо поменять вот эту строчку ```DB_PASSWORD=1234 ``` на пароль, данный к вашему PostgreSQL там.
 
 
 ## Требования к работе
