@@ -30,8 +30,21 @@ if(registerForm){
             } ); 
             const result = await response.json(); 
             
-            if(result.token){ localStorage.setItem( 'token', result.token ); 
-                alert('Вход выполнен'); }else{ alert(result.message); } 
+            if(result.token){
+
+                localStorage.setItem(
+                    'token',
+                    result.token
+                );
+
+                alert('Вход выполнен');
+
+                // Переход на главную страницу
+                window.location.href = 'index.html';
+
+            }
+            else{ alert(result.message); } 
+            
             } 
         ); 
     }
