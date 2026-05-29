@@ -1,9 +1,19 @@
+:root{
+    font-family: 'Montserrat', sans-serif; 
+    line-height: 1.2;
+    --green: #3a6244;
+    --white: white;
+    --gray: rgb(188, 188, 188);
+    --black: black;
+    --orange: #F97F37;
+}
+
 main{
     margin: 0 200px;
 }
 
 .bottom-line{
-    border-bottom: 3px solid gray;
+    border-bottom: 3px solid var(--gray);
 }
 
 
@@ -18,8 +28,8 @@ main{
   margin-bottom: 50px;
   font-size: 1.5rem;
   padding: 12px 25px;
-  background: #1A365D;
-  color: white;
+  background: var(--green);;
+  color: var(--white);
   border-radius: 100px;
   text-decoration: none;
   transition: background 0.3s ease;
@@ -27,11 +37,11 @@ main{
 }
 
 .game-btn:hover {
-  background: #F97F37;
+  background: var(--orange);
 }
 .text-title__game{
     font-family: 'Montserrat', sans-serif;
-    color: #1A365D;
+    color: var(--green);;
     font-weight: 700;
     font-size: 1.5rem;
     text-align: center;
@@ -52,7 +62,7 @@ main{
     width: 400px;
 }
 .photo__game p{
-    color: black;
+    color: var(--black);
     font-weight: 600;
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
@@ -110,7 +120,7 @@ main{
 }
 .cafe-info p{
     font-family: 'Montserrat', sans-serif;
-    color: #1A365D;
+    color: var(--green);;
     font-weight: 700;
     font-size: 1.5rem;
 }
@@ -134,7 +144,7 @@ main{
 }
 .text-title{
     font-family: 'Montserrat', sans-serif;
-    color: #1A365D;
+    color: var(--green);;
     font-weight: 700;
     font-size: 1.5rem;
     margin: 50px 0;
@@ -142,7 +152,7 @@ main{
 }
 .text-main{
     font-family: 'Montserrat', sans-serif;
-    color: #1A365D;
+    color: var(--green);;
     font-weight: 700;
     font-size: 1rem;
     margin: 50px 0;
@@ -150,7 +160,7 @@ main{
 }
 .text-main span{
     font-family: 'Montserrat', sans-serif;
-    color: #F97F37;
+    color: var(--orange);
     font-weight: 700;
     font-size: 1.3rem;
     margin: 50px 0;
@@ -158,7 +168,7 @@ main{
 }
 .plus ul{
     font-family: 'Montserrat', sans-serif;
-    border: 1px solid #1A365D;
+    border: 1px solid var(--green);;
     border-radius: 30px;
     padding: 30px 60px;
     width: 80%;
@@ -198,14 +208,14 @@ main{
 
 .booking-slider::-webkit-scrollbar-track{
 
-    background:#d9d9d9;
+    background:var(--gray);
 
     border-radius:20px;
 }
 
 .booking-slider::-webkit-scrollbar-thumb{
 
-    background:#1A365D;
+    background:var(--green);;
 
     border-radius:20px;
 }
@@ -216,7 +226,7 @@ main{
 
     min-width:400px;
 
-    background:white;
+    background:var(--white);
 
     border-radius:30px;
 
@@ -247,7 +257,7 @@ main{
 
     font-family:'Montserrat', sans-serif;
 
-    color:#1A365D;
+    color:var(--green);;
 
     font-size:1.8rem;
 
@@ -260,7 +270,7 @@ main{
 
     margin:0 20px 20px 20px;
 
-    color:#333;
+    color:var(--gray);
 }
 
 .booking-btn{
@@ -273,9 +283,9 @@ main{
 
     border-radius:20px;
 
-    background:#1A365D;
+    background:var(--green);;
 
-    color:white;
+    color:var(--white);
 
     font-size:1rem;
 
@@ -286,7 +296,7 @@ main{
 
 .booking-btn:hover{
 
-    background:#F97F37;
+    background:var(--orange);
 }
 
 .booking-info{
@@ -312,7 +322,7 @@ main{
 
     font-size:1.3rem;
 
-    color:#F97F37 !important;
+    color: var(--orange) !important;
 
     font-weight:700;
 }
@@ -327,9 +337,9 @@ main{
 
     padding:15px;
 
-    background:#F97F37;
+    background:var(--orange);
 
-    color:white;
+    color:var(--white);
 
     text-decoration:none;
 
@@ -342,5 +352,5 @@ main{
 
 .pay-btn:hover{
 
-    background:#1A365D;
+    background:var(--green);;
 }

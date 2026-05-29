@@ -1,6 +1,16 @@
+:root{
+    font-family: 'Montserrat', sans-serif; 
+    line-height: 1.2;
+    --green: #3a6244;
+    --white: white;
+    --gray: rgb(188, 188, 188);
+    --black: black;
+    --orange: #F97F37;
+}
+
 footer{
     width: 100%;
-    background-color: #1A365D;
+    background-color: var(--green);;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -11,6 +21,6 @@ footer{
 
 .footer-text{
     font-size: 1.5rem;
-    color: white;
+    color: var(--white);
     font-family: 'Montserrat', sans-serif;
 }

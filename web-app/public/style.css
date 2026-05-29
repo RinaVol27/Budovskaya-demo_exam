@@ -1,4 +1,12 @@
-/* id="r9m1"  */
+:root{
+    font-family: 'Montserrat', sans-serif; 
+    line-height: 1.2;
+    --green: #3a6244;
+    --white: white;
+    --gray: rgb(188, 188, 188);
+    --black: black;
+    --orange: #F97F37;
+}
 *{ 
     margin:0; padding:0; 
     box-sizing:border-box; 
@@ -32,14 +40,14 @@ body{
 } 
 
 .auth-form h1{ 
-    color:#1A365D; 
+    color:var(--green);; 
     text-align:center; 
 } 
 
 .auth-form input{ 
     padding:15px; 
     border-radius:15px; 
-    border:2px solid #1A365D; 
+    border:2px solid var(--green);; 
     font-size:1rem; 
 } 
 
@@ -47,19 +55,19 @@ body{
     padding:15px; 
     border:none; 
     border-radius:20px; 
-    background:#1A365D; 
-    color:white; 
+    background:var(--green);; 
+    color: var(--white); 
     font-size:1rem; 
     cursor:pointer; 
     transition:0.3s; 
 } 
 
 .auth-form button:hover{ 
-    background:#F97F37; 
+    background:var(--orange); 
 } 
 
 .auth-form a{ 
     text-align:center; 
     text-decoration:none; 
-    color:#1A365D; 
+    color:var(--green);; 
 }
